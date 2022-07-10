@@ -310,6 +310,10 @@ h2{
    gap: 6vh;
 }
 
+.briefcase_imgs img{
+   width: 100%;
+}
+
 
 .contacts{
    padding: 6vw;
