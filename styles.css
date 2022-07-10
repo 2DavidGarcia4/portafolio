@@ -174,13 +174,13 @@ nav .menu_barr{
    top: 10vh;
    z-index: 1;
    width: 100%;
-   /* height: 30vh; */
 }
 
 .bacground_img_2{
    position: absolute;
    width: 100%;
-   bottom: -10vh;
+   bottom: -16vh;
+   right: 0;
    z-index: 1;
 }
 
@@ -212,12 +212,17 @@ h2{
    height: auto;
 }
 
-.my_abilities > img{
+.my_abilities .container_img{
    position: absolute;
-   width: 26%;
-   top: -4vh;
-   right: -10vw;
-   size: 0;
+   top: -13vw;
+   right: 0;
+   width: 16vw;
+   height: 26vw;
+   overflow: hidden;
+}
+
+.container_img img{
+   height: 100%;
 }
 
 .abilities{
@@ -288,10 +293,10 @@ h2{
 }
 
 .experiences img{
-   width: 26%;
+   width: 30vw;
    position: absolute;
-   left: -40px;
-   bottom: -12vh;
+   left: -15vw;
+   bottom: -15vw;
 }
 
 
@@ -459,40 +464,35 @@ h2{
       width: 100%;
    }
    
-   .bacground_img_2{
-      position: absolute;
-      width: 100%;
-      bottom: -80vh;
-   }
    
    .about_me{
       width: 100%;
       height: 50vh;
-      padding: 6vw 10vw;
+      padding: 10vw 10vw;
+      position: relative;
+      z-index: 4;
+   }
+
+   .bacground_img_2{
+      position: absolute;
+      width: 100%;
+      top: -130%;
+      left: 0;
+      z-index: 2;
    }
    
    .about_me h2{
       text-align: center;
+      z-index: 4;
    }
    
    
    .my_abilities{
       width: 100%;
-      /* height: 60vh; */
       padding: 0 10vw;
       position: relative;
-      /* display: flex;
-      flex-direction: column;
-      align-items: center; */
       display: flex;
       flex-direction: column;
-   }
-   
-   .my_abilities > img{
-      width: 24%;
-      top: -4vh;
-      right: -10vw;
-      position: absolute;
    }
    
    .abilities{
@@ -574,16 +574,8 @@ h2{
       background-color: var(--Brown);
    }
    
-   .experiences img{
-      width: 26%;
-      position: absolute;
-      left: -40px;
-      bottom: -12vh;
-   }
-   
 
    .briefcase{
-      /* display: none; */
       padding: 6vw 10vw;
    }
 
