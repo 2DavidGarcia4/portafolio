@@ -76,7 +76,7 @@ nav .menu{
    margin-top: -100%;
    margin-right: -100%;
    list-style: none;
-   background-color: var(--Gray);
+   background-color: white;
    flex-direction: column;
    padding: 6vh;
    top: 0;
