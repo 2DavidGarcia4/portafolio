@@ -465,6 +465,7 @@ h2{
 
 
    .bacground_img_1{
+      top: 4vh;
       width: 100%;
    }
    
@@ -478,11 +479,8 @@ h2{
    }
 
    .bacground_img_2{
-      position: absolute;
-      width: 100%;
-      top: -130%;
-      left: 0;
-      z-index: 2;
+      top: -160%;
+      z-index: 1;
    }
    
    .about_me h2{

@@ -14,6 +14,9 @@ const elemntsListA = document.querySelectorAll(".menu li a")
 console.log(elemntsList)
 elemntsListA.forEach((item, psi) => {
    item.addEventListener("click", () => {
+      setTimeout(()=>{
+         list.classList.toggle("menu_barr")
+      }, 500)
       elemntsListA.forEach((item2, psi2) => {
          elemntsList[psi2].classList.remove("active")
       })
@@ -23,5 +26,5 @@ elemntsListA.forEach((item, psi) => {
 
 const nav = document.querySelector(".header nav")
 document.addEventListener("scroll", () => {
-   nav.classList.toggle("style", window.scrollY > 140)
+   nav.classList.toggle("style", window.scrollY > 120)
 })
